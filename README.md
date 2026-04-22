@@ -1,8 +1,5 @@
-# AI_Object_Manipulation_Arm
-AI-powered vision-controlled robotic arm capable of real-time object detection, classification, and selective pick-and-place manipulation using computer vision and motion planning. The system integrates deep learning-based perception with precise robotic control to autonomously identify and handle objects in dynamic environments.
 # AI-Based Vision-Controlled Robotic Arm for Selective Object Manipulation
-
-An intelligent robotic system that integrates **computer vision, deep learning, and embedded systems** to enable **real-time object detection and autonomous pick-and-place operations**.
+AI-powered vision-controlled robotic arm capable of real-time object detection, classification, and selective pick-and-place manipulation using computer vision and motion planning. The system integrates deep learning-based perception with precise robotic control to autonomously identify and handle objects in dynamic environments. An intelligent robotic system that integrates **computer vision, deep learning, and embedded systems** to enable **real-time object detection and autonomous pick-and-place operations**.
 
 This project demonstrates an end-to-end pipeline where visual input is processed using AI models, translated into spatial coordinates, and executed through a robotic arm for precise object manipulation.
 
@@ -193,7 +190,7 @@ arduino/robotic_arm/robotic_arm.ino
 
 ##  Author
 
-**Vinayak Sharma**
+**Vinayak Sharma** &
 **Harsh Singh**
 
 * GitHub (Vinayak Sharma)
