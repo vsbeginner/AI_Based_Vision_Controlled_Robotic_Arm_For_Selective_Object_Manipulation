@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Robotic Arm Control</title>
+
+<style>
+body {
+    font-family: Arial;
+    text-align: center;
+}
+
+button {
+    width: 120px;
+    height: 60px;
+    margin: 10px;
+    font-size: 18px;
+}
+</style>
+
+<script>
+function send(direction){
+    fetch("/move", {
+        method: "POST",
+        headers: {
+            "Content-Type": "application/x-www-form-urlencoded"
+        },
+        body: "direction=" + direction
+    });
+}
+</script>
+
+</head>
+
+<body>
+
+<h2>Robotic Arm Controller</h2>
+
+<div>
+<button onclick="send('up')">DOWN</button>
+</div>
+
+<div>
+<button onclick="send('left')">LEFT</button>
+<button onclick="send('right')">RIGHT</button>
+</div>
+
+<div>
+<button onclick="send('down')">UP</button>
+</div>
+
+<div>
+<button onclick="send('forward')">FORWARD</button>
+<button onclick="send('back')">BACK</button>
+</div>
+
+<div>
+<button onclick="send('open')">OPEN</button>
+<button onclick="send('close')">CLOSE</button>
+</div>
+
+</body>
+</html>
